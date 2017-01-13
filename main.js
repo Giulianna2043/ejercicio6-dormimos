@@ -20,13 +20,15 @@ function calcular()
 
 	if(isVacation)
 	{
-		salida.innerHTML = "1";
+		salida.innerHTML = "1 " +"podemos dormir";
 	}else{
 		if(isWeekday)
 		{
-			salida.innerHTML = "0";
-		}else{
-			salida.innerHTML = "1";
+			salida.innerHTML = "0 " + " no podemos dormir";
+		}
+        else
+        {
+			salida.innerHTML = "1 " + "podemos dormir";
 		}
 	}
 }
